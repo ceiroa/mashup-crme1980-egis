@@ -7,7 +7,7 @@
     function kmlPE(){
       
       var myMap = google.mashups.getObjectById('map').getMap();
-      var geoXml = new GGeoXml("http://webpages.cs.luc.edu/~cramirez/pipelinesNL.kml");
+      var geoXml = new GGeoXml("http://www.geograph.org.uk/feed/recent.rss");
       myMap.addOverlay(geoXml);
       myMap.enableDoubleClickZoom();
     }
