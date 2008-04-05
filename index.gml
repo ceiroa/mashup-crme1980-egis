@@ -1,10 +1,16 @@
 <gm:page title="GisMap3" authenticate="false">
-  
-<gm:map id="map" height="600px" width="600px" lat="41.90" lng="-87.65" zoom="9" maptypes="true">
-  <gm:handleEvent src="Sources">
-</gm:map>
 
-<gm:list id="Sources" onclick="kmlPE()">
+<div style="float:right; width:20%">
+  <h3>Select from the Lisdt</h3>
+  <gm:list id="Sources" onclick="kmlPE()" />
+</div>
+
+<div style="width:80%">
+  <gm:map id="map" height="600px" width="600px" lat="41.90" lng="-87.65" zoom="9" maptypes="true">
+    <gm:handleEvent src="Sources">
+  </gm:map>
+</div>
+
 
 <script>
     
