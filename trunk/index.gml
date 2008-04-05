@@ -4,10 +4,10 @@
   <h3>Please Select from the List</h3>
   <gm:list id="Sources">
     <input type="checkbox" name="states" 
-    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml', 'Chicago, IL')">States</input><br/>
+    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml')">States</input><br/>
     
     <input type="checkbox" name="england" 
-    onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 'London, England')">England</input>
+    onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss')">England</input>
   </gm:list>
 </div>
 
@@ -20,16 +20,15 @@
 
 <script>
     
-    function kmlPE(source, address){
+    function kmlPE(source){
       
       var myMap = google.mashups.getObjectById('map').getMap();
-      myMap.centerOnLocation(address);
       var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml); 
       
       myMap.enableDoubleClickZoom();
   
-      
+      myMap.showAllMarkers;  
     }
   </script>
   
