@@ -3,7 +3,7 @@
 <div style="float:right; width:20%">
   <h3>Please Select from the List</h3>
   <gm:list id="Sources">
-    <input type="checkbox" name="mushrooms" onclick="kmlPE()">States<BR>
+    <input type="checkbox" name="mushrooms" onclick="kmlPE()">States</input>
   </gm:list>
 </div>
 
