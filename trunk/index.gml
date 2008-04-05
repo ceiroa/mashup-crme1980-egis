@@ -23,13 +23,13 @@
     function kmlPE(source, address){
       
       var myMap = google.mashups.getObjectById('map').getMap();
-      
+      myMap.centerOnLocation(address);
       var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml); 
       
       myMap.enableDoubleClickZoom();
   
-      myMap.centerOnLocation(address);
+      
     }
   </script>
   
