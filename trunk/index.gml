@@ -18,16 +18,19 @@
     
     function kmlPE(){
       var source = "http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml";
+      
+      var myMap = google.mashups.getObjectById('map').getMap();
+      
+      var geoXml = new GGeoXml(source);
+      myMap.addOverlay(geoXml);
+      
       var lt="41.9";
       var lg="-87.65";
       var z="9";
-      
-      var myMap = google.mashups.getObjectById('map').getMap();
       myMap.setValue = (lat, lt);
       myMap.setValue =(long, lg);
       myMap.setValue=(zoom, z);
-      var geoXml = new GGeoXml(source);
-      myMap.addOverlay(geoXml);
+      
       myMap.enableDoubleClickZoom();
     }
   </script>
