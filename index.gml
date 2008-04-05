@@ -28,7 +28,7 @@
       
       myMap.enableDoubleClickZoom();
   
-      myMap.showAllMarkers;  
+      myMap.showAllMarkers();  
     }
   </script>
   
