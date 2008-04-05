@@ -1,8 +1,10 @@
 <gm:page title="GisMap3" authenticate="false">
 
 <div style="float:right; width:20%">
-  <h3>Select from the Lisdt</h3>
-  <gm:list id="Sources" onclick="kmlPE()" />
+  <h3>Please Select from the List</h3>
+  <gm:list id="Sources">
+    <input type="checkbox" name="mushrooms" onclick="kmlPE()">States<BR>
+  </gm:list>
 </div>
 
 <div style="width:80%">
