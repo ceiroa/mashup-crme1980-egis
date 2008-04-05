@@ -16,12 +16,14 @@
 
 <script>
     
-    function kmlPE(lt, lg, z){
+    function kmlPE(lt, lg, z, ){
+      var source = "http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml";
+      
       var myMap = google.mashups.getObjectById('map').getMap();
       myMap.lat = lt;
       myMap.long=lg;
       myMap.zoom=z;
-      var geoXml = new GGeoXml("http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml");
+      var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml);
       myMap.enableDoubleClickZoom();
     }
