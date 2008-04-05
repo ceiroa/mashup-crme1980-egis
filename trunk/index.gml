@@ -3,12 +3,12 @@
 <div style="float:right; width:20%">
   <h3>Please Select from the List</h3>
   <gm:list id="Sources">
-    <input type="checkbox" name="mushrooms" onclick="kmlPE()">States</input>
+    <input type="checkbox" name="mushrooms" onclick="kmlPE(41.90, -87.65, 9)">States</input>
   </gm:list>
 </div>
 
 <div style="width:80%">
-  <gm:map id="map" height="600px" width="600px" lat="41.90" lng="-87.65" zoom="9" maptypes="true">
+  <gm:map id="map" height="600px" width="600px" maptypes="true">
     <gm:handleEvent src="Sources">
   </gm:map>
 </div>
@@ -16,9 +16,11 @@
 
 <script>
     
-    function kmlPE(){
-      
+    function kmlPE(lt, lg, z){
       var myMap = google.mashups.getObjectById('map').getMap();
+      myMap.lat = lt;
+      myMap.long=lg;
+      myMap.zoom=z;
       var geoXml = new GGeoXml("http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml");
       myMap.addOverlay(geoXml);
       myMap.enableDoubleClickZoom();
