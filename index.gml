@@ -16,7 +16,7 @@
 
 <script>
     
-    function kmlPE(lt, lg, z, ){
+    function kmlPE(lt, lg, z){
       var source = "http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml";
       
       var myMap = google.mashups.getObjectById('map').getMap();
