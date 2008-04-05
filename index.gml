@@ -3,8 +3,10 @@
 <div style="float:right; width:20%; padding:12px">
   <h3>Please Select from the List</h3>
   <gm:list id="Sources">
-    <input type="checkbox" name="states" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml')">States</input>
-    <input type="checkbox" name="england" onclick="kmlPE()">England</input>
+    <input type="checkbox" name="states" 
+    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml')">States</input><br/>
+    <input type="checkbox" name="england" 
+    onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss')">England</input>
   </gm:list>
 </div>
 
