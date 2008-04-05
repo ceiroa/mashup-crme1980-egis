@@ -23,14 +23,15 @@
       
       var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml);
-      
+     
+      myMap.refresh();
       var lt='41.9';
       var lg='-87.65';
       var z='9';
       myMap.setValue = (lat, lt);
       myMap.setValue =(long, lg);
       myMap.setValue=(zoom, z);
-      myMap.refresh();
+      
       
       myMap.enableDoubleClickZoom();
     }
