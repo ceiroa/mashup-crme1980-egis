@@ -6,8 +6,6 @@
 
 <gm:list id="Sources" onclick="kmlPE()">
 
-<gm:template id
-
 <script>
     
     function kmlPE(){
