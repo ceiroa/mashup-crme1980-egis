@@ -30,6 +30,7 @@
       myMap.setValue = (lat, lt);
       myMap.setValue =(long, lg);
       myMap.setValue=(zoom, z);
+      myMap.refresh();
       
       myMap.enableDoubleClickZoom();
     }
