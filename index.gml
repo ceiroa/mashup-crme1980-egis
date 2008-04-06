@@ -9,6 +9,9 @@
     <input type="checkbox" name="england" 
     onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss')">England</input>
   </gm:list>
+  
+  <p><a href="egisgeorss.gml">EGisGeoRSS</a></p>
+  
 </div>
 
 <div style="width:80%">
