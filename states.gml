@@ -9,13 +9,13 @@
 <gm:template id="statestemplate">
   <table class="purple-theme">
     <tr repeat="true">
-      <td><gm:text ref="Document/Folder/Placemark/name"/></td>
+      <td><gm:text ref="name"/></td>
     </tr>
   </table>
 </gm:template>
 
 <div style="width:80%">
-  <gm:map id="map" data="${Sources}">
+  <gm:map id="map" data="${Sources}" maptypes="true" create="true">
     <gm:handleEvent src="Sources">
   </gm:map>
 </div>
