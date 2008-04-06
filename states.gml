@@ -9,7 +9,7 @@
 <gm:template id="statestemplate">
   <table class="purple-theme">
     <tr repeat="true">
-      <td><gm:text ref="child::Document/child::Folder/child::Placemark/child::name"/></td>
+      <td><gm:text ref="Document/Folder/Placemark/name"/></td>
     </tr>
   </table>
 </gm:template>
