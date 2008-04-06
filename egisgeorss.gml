@@ -1,6 +1,6 @@
 <gm:page title="GisMap3" authenticate="false" onload="kmlPE()">
   
-<gm:map id="map" height="600px" width="600px" lat="52" lng="0" zoom="9" maptypes="true"/>
+<gm:map id="map" height="600px" width="600px" lat="52" lng="0" zoom="6" maptypes="true"/>
   
 <script>
     
