@@ -1,6 +1,6 @@
 <gm:page title="My App" authenticate="false" onload="kmlPE()">
 
-  <gm:map id="map" height="600px" width="600px"/>
+  <gm:map id="map" height="600px" width="600px" maptypes="true"/>
   
   <script>
     
