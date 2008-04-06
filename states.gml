@@ -2,9 +2,17 @@
 
 <div style="float:right; width:20%; padding:12px">
   <h3>Please Select State from the List</h3>
-  <gm:list id="Sources" data="http://webpages.cs.luc.edu/~cramirez/usPop.kml"> 
-  </gm:list>
+  <gm:list id="Sources" data="http://webpages.cs.luc.edu/~cramirez/usPop.kml" pagesize="10"
+    template="statestemplate"/> 
 </div>
+
+<gm:template id="statestemplate">
+  <table class="purple-theme">
+    <tr repeat="true">
+      <td><gm:text ref="Folder:Placemark:name"/></td>
+    </tr>
+  </table>
+</gm:template>
 
 <div style="width:80%">
   <gm:map id="map" data="${Sources}">
