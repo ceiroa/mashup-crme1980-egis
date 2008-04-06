@@ -4,7 +4,7 @@
   <h3>Please Select from the List</h3>
   <gm:list id="Sources">
     <input type="checkbox" name="states" 
-    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPopMyServerNL.kml')">States</input><br/>
+    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input><br/>
     
     <input type="checkbox" name="england" 
     onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss')">England</input>
