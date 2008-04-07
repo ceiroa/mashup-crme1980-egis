@@ -2,18 +2,8 @@
 
 <div style="float:right; width:20%; padding:12px">
   <h3>Please Select from the List</h3>
-  <gm:list id="Sources" template="listTemplate">
-    <li></li>
-    
-    <li></li>
-    
-    <li></li>  
-      
-  </gm:list>
-</div>
-
-<gm:template id="listTemplate">
-  <table class="blue-theme">
+  <gm:list id="Sources">
+   <table class="blue-theme">
     <tr>
       <td><input type="checkbox" name="states" 
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></td>
@@ -22,7 +12,11 @@
       <td><input type="checkbox" name="polygon" 
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></td>
     </tr>
-  </table>  
+  </table>     
+  </gm:list>
+</div>
+
+  
     
 <div style="width:80%">
   <gm:map id="map" height="600px" width="600px" maptypes="true">
