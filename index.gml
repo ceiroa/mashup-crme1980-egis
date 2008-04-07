@@ -3,14 +3,11 @@
 <div style="float:right; width:20%; padding:12px">
   <h3>Please Select from the List</h3>
   <gm:list id="Sources" template="listTemplate">
-    <li><input type="checkbox" name="states" 
-    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></li>
+    <li></li>
     
-    <li><input type="checkbox" name="path" 
-    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></li>
+    <li></li>
     
-    <li><input type="checkbox" name="polygon" 
-    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></li>  
+    <li></li>  
       
   </gm:list>
 </div>
@@ -18,9 +15,12 @@
 <gm:template id="listTemplate">
   <table class="blue-theme">
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><input type="checkbox" name="states" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></td>
+      <td><input type="checkbox" name="path" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></td>
+      <td><input type="checkbox" name="polygon" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></td>
     </tr>
   </table>  
     
