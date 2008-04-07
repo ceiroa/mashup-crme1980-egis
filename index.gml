@@ -9,7 +9,7 @@
   
       <input type="checkbox" name="path" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 4, 'Las Vegas, Nevada', this)">Path</input><br/>
   
-      <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 8, 'Chicago, IL', this)">Polygon</input><br/> 
+      <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 5, 'Chicago, IL', this)">Polygon</input><br/> 
   
       <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this)">England</input><br/>
   </gm:list>
