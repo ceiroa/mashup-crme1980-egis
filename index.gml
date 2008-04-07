@@ -14,7 +14,7 @@
       <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this)">England</input><br/>
   </gm:list>
   <br />
-  <button onclick="refresh()">Refresh Map</button>
+  <button onclick="refresh()">Clean Map</button>
 </div>
 
   
@@ -37,7 +37,7 @@
         myMap.setZoom(zoom);  
         myMap.centerOnLocation(location);
       } else {
-        removeOverlay(geoXml);
+        myMap.removeOverlay(geoXml);
       }
       myMap.showAllMarkers();
       myMap.enableDoubleClickZoom();
