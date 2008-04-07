@@ -4,7 +4,7 @@
   
   <h3>Select from List</h3>
   
-    <form id="sources">  
+    <form name="sources">  
       <input type="checkbox" name="states" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 3, 'Kasas City, Missouri')">States</input><br/>
   
       <input type="checkbox" name="path" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 4, 'Las Vegas, Nevada')">Path</input><br/>
