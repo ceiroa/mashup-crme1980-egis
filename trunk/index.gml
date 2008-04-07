@@ -5,20 +5,16 @@
   <h3>Select from List</h3>
   
     <gm:list id="Sources">  
-      <input type="checkbox" name="states" 
-      onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 2, 'Kasas City, Missouri')">
+      <input type="checkbox" name="states" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 2, 'Kasas City, Missouri')">
       States</input><br/>
   
-      <input type="checkbox" name="path" 
-      onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 3, 'Las Vegas, Nevada')">
+      <input type="checkbox" name="path" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 3, 'Las Vegas, Nevada')">
       Path</input><br/>
   
-      <input type="checkbox" name="polygon" 
-      onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 7, 'Chicago, IL')">
+      <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 7, 'Chicago, IL')">
       Polygon</input><br/> 
   
-      <input type="checkbox" name="england" 
-      onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 6, 'London, England')">
+      <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 6, 'London, England')">
       England</input><br/>
   </gm:list>
 </div>
