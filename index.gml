@@ -33,6 +33,7 @@
       myMap.addOverlay(geoXml); 
       myMap.setZoom(zoom);  
       myMap.centerOnLocation(location);
+      myMap.showAllMarkers();
       myMap.enableDoubleClickZoom();
     }
   </script>
