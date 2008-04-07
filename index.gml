@@ -11,7 +11,7 @@
   
       <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 5, 'Chicago, IL')">Polygon</input><br/> 
   
-      <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this)">England</input><br/>
+      <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK')">England</input><br/>
    </form>
   <br />
   <button onclick="refresh()">Clean Map</button>
