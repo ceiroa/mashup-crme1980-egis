@@ -32,13 +32,13 @@
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
       <!-- check tif the element that triggered the event is selected -->
-      if(document.sources.states.checked==true){
+      <!--if(document.sources.states.checked==true){-->
         myMap.addOverlay(geoXml); 
         myMap.setZoom(zoom);  
         myMap.centerOnLocation(location);
-      } else {
+      <!--} else {
         myMap.removeOverlay(geoXml);
-      
+      }-->
       myMap.showAllMarkers();
       myMap.enableDoubleClickZoom();
     }
