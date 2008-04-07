@@ -30,7 +30,7 @@
     
     function kmlPE(source, zoom, location){
       <!-- 
-      //if the
+      //\if the
       -->
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
