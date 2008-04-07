@@ -32,7 +32,7 @@
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
       <!-- check tif the element that triggered the event is selected -->
-      if(this.checked==true){
+      if(this.name.checked==true){
         myMap.addOverlay(geoXml); 
         myMap.setZoom(zoom);  
         myMap.centerOnLocation(location);
