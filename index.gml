@@ -5,13 +5,13 @@
   <h3>Select from List</h3>
   
     <form name="sources">  
-      <input type="checkbox" name="states" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 3, 'Kasas City, Missouri', this.name)">States</input><br/>
+      <input type="checkbox" name="0" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 3, 'Kasas City, Missouri', this.name)">States</input><br/>
   
-      <input type="checkbox" name="path" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 4, 'Las Vegas, Nevada', this.name)">Path</input><br/>
+      <input type="checkbox" name="1" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 4, 'Las Vegas, Nevada', this.name)">Path</input><br/>
   
-      <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 5, 'Chicago, IL', this.name)">Polygon</input><br/> 
+      <input type="checkbox" name="2" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 5, 'Chicago, IL', this.name)">Polygon</input><br/> 
   
-      <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this.name)">England</input><br/>
+      <input type="checkbox" name="3" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this.name)">England</input><br/>
    </form>
   <br />
   <button onclick="refresh()">Clean Map</button>
