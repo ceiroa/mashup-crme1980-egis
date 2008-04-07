@@ -14,7 +14,7 @@
       <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 6, 'London, UK')">England</input><br/>
   </gm:list>
   
-  <button onlick="refresh">Refresh Map</button>
+  <button onlick="refresh()">Refresh Map</button>
 </div>
 
   
