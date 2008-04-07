@@ -30,9 +30,10 @@
     
     function kmlPE(source, zoom, location, checkbox){
       var myMap = google.mashups.getObjectById('map').getMap();
+      var list= google.mashups.getObjectById('sources');
       var geoXml = new GGeoXml(source);
-      <!-- check if the element that triggered the event is selected -->
-      if(checkbox.checked){
+      <!-- check tif the element that triggered the event is selected -->
+      if(list.checkbox.checked){
         myMap.addOverlay(geoXml); 
         myMap.setZoom(zoom);  
         myMap.centerOnLocation(location);
