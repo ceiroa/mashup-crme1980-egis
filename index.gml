@@ -1,8 +1,8 @@
 <gm:page title="GisMap3" authenticate="false" >
 
-<div style="float:right; width:20%; padding:12px" class="blue-theme">
+<div style="float:right; width:20%; padding:12px">
   <h3>Please Select from the List</h3>
-  <gm:list id="Sources">
+  <gm:list id="Sources" template="listTemplate">
     <li><input type="checkbox" name="states" 
     onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></li>
     
@@ -15,6 +15,15 @@
   </gm:list>
 </div>
 
+<gm:template id="listTemplate">
+  <table class="blue-theme">
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>  
+    
 <div style="width:80%">
   <gm:map id="map" height="600px" width="600px" maptypes="true">
     <gm:handleEvent src="Sources">
