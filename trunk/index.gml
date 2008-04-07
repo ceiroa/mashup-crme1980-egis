@@ -29,13 +29,16 @@
 <script>
     
     function kmlPE(source, zoom, location){
-      <!-- check if the element that triggered the event is selected -->
-      
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
-      myMap.addOverlay(geoXml); 
-      myMap.setZoom(zoom);  
-      myMap.centerOnLocation(location);
+      <!-- check if the element that triggered the event is selected -->
+      if(){
+        myMap.addOverlay(geoXml); 
+        myMap.setZoom(zoom);  
+        myMap.centerOnLocation(location);
+      } else {
+        removeOverlay(geoXml);
+      }
       myMap.showAllMarkers();
       myMap.enableDoubleClickZoom();
     }
