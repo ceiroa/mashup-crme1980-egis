@@ -4,7 +4,7 @@
   
   <h3>Select from List</h3>
   
-    <gm:list id="Sources">  
+    <form id="sources">  
       <input type="checkbox" name="states" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml', 3, 'Kasas City, Missouri', this)">States</input><br/>
   
       <input type="checkbox" name="path" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 4, 'Las Vegas, Nevada', this)">Path</input><br/>
@@ -12,7 +12,7 @@
       <input type="checkbox" name="polygon" onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 5, 'Chicago, IL', this)">Polygon</input><br/> 
   
       <input type="checkbox" name="england" onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 3, 'London, UK', this)">England</input><br/>
-  </gm:list>
+   </form>
   <br />
   <button onclick="refresh()">Clean Map</button>
 </div>
@@ -33,7 +33,7 @@
       var list= google.mashups.getObjectById('sources');
       var geoXml = new GGeoXml(source);
       <!-- check tif the element that triggered the event is selected -->
-      if(list[checkbox].checked){
+      if(document.forms[0].checkbox.checked){
         myMap.addOverlay(geoXml); 
         myMap.setZoom(zoom);  
         myMap.centerOnLocation(location);
