@@ -29,7 +29,7 @@
 <script>
     
     function kmlPE(source, zoom, location){
-      <!-- check if the button that triggered the event is selected -->
+      <!-- check if the element that triggered the event is selected -->
       
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
