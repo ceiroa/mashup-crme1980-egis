@@ -30,7 +30,6 @@
     
     function kmlPE(source, zoom, location){
       var myMap = google.mashups.getObjectById('map').getMap();
-      var list= google.mashups.getObjectById('sources');
       var geoXml = new GGeoXml(source);
       <!-- check tif the element that triggered the event is selected -->
       if(document.sources.states.checked==true){
