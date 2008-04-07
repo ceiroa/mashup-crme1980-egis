@@ -9,9 +9,8 @@
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml', 3)">Path</input><br/>
     <input type="checkbox" name="polygon" 
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 8)">Polygon</input> 
-    
-      <input type="checkbox" name="polygon" 
-          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml', 8)">Polygon</input>  
+    <input type="checkbox" name="england" 
+          onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss', 6)">England</input>  
   </gm:list>
 </div>
 
