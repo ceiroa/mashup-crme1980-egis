@@ -17,7 +17,7 @@
   
     
 <div style="width:80%">
-  <gm:map id="map" height="600px" width="600px" maptypes="true">
+  <gm:map id="map" maptypes="true">
     <gm:handleEvent src="Sources">
   </gm:map>
 </div>
