@@ -2,7 +2,7 @@
 
 <div style="float:right; width:20%; padding:12px">
   <h3>Please Select from the List</h3>
-  <gm:list id="Sources">
+  <gm:list id="Sources" template="default">
     <li><input type="checkbox" name="states" 
     onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></li>
     
