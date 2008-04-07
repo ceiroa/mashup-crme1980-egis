@@ -1,16 +1,15 @@
 <gm:page title="GisMap3" authenticate="false" >
 
 <div style="float:right; width:20%; padding:12px">
-  <h3>Please Select from the List</h3>
   <gm:list id="Sources">
-   <table class="blue-theme">
-    <tr>
-      <td><input type="checkbox" name="states" 
-          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></td>
-      <td><input type="checkbox" name="path" 
-          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></td>
-      <td><input type="checkbox" name="polygon" 
-          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></td>
+   <table class="blue-theme"> 
+     <th> Select from the List</th>
+    <tr><td><input type="checkbox" name="states" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></td></tr>
+    <tr><td><input type="checkbox" name="path" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></td></tr>
+    <tr><td><input type="checkbox" name="polygon" 
+          onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></td></tr>
     </tr>
   </table>     
   </gm:list>
