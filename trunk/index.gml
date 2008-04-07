@@ -40,7 +40,7 @@
     }
     function refresh(){
       var myMap = google.mashups.getObjectById('map').getMap();
-      myMap.refresh();
+      myMap.clearOverlays();
     }
   </script>
   
