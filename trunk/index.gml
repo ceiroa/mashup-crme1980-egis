@@ -29,9 +29,8 @@
 <script>
     
     function kmlPE(source, zoom, location){
-      /*
-        if
-      */
+      <!-- check if the button that triggered the event is selected -->
+      
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml); 
