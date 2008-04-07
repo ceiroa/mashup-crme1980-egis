@@ -6,8 +6,12 @@
     <li><input type="checkbox" name="states" 
     onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></li>
     
-    <li><input type="checkbox" name="england" 
+    <li><input type="checkbox" name="path" 
     onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></li>
+    
+    <li><input type="checkbox" name="polygon" 
+    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></li>  
+      
   </gm:list>
 </div>
 
