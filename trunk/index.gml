@@ -7,7 +7,7 @@
     onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/usPop.kml')">States</input></li>
     
     <li><input type="checkbox" name="england" 
-    onclick="kmlPE('http://www.geograph.org.uk/feed/recent.rss')">England</input></li>
+    onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></li>
   </gm:list>
 </div>
 
