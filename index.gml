@@ -34,7 +34,7 @@
       <!-- check tif the element that triggered the event is selected -->
       for (i=0; i<document.sources.overl.length; i++){
       {
-        if(document.sources.overl[0].checked==true){
+        if(document.sources.overl[i].checked==true){
           myMap.addOverlay(geoXml); 
           myMap.setZoom(zoom);  
           myMap.centerOnLocation(location);
