@@ -29,7 +29,9 @@
 <script>
     
     function kmlPE(source, zoom, location){
-      
+      <--! 
+      //if the
+      -->
       var myMap = google.mashups.getObjectById('map').getMap();
       var geoXml = new GGeoXml(source);
       myMap.addOverlay(geoXml); 
