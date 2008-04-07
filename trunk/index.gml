@@ -10,7 +10,6 @@
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPath1.kml')">Path</input></td></tr>
     <tr><td><input type="checkbox" name="polygon" 
           onclick="kmlPE('http://webpages.cs.luc.edu/~cramirez/TestPolygon1.kml')">Polygon</input></td></tr>
-    </tr>
   </table>     
   </gm:list>
 </div>
