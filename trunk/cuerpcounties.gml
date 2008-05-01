@@ -7,7 +7,7 @@
     function kmlPE(){
       
       var myMap = google.mashups.getObjectById('map').getMap();
-      var geoXml = new GGeoXml("http://webpages.cs.luc.edu/~cramirez/CUERPCounties.kml");
+      var geoXml = new GGeoXml("http://webpages.cs.luc.edu/~cramirez/CUERPCountiesGE.kml");
       myMap.addOverlay(geoXml);
       myMap.enableDoubleClickZoom();
     }
